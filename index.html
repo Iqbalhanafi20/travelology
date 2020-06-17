@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelology</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/libraries/bootstrap/css/bootstrap.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <style>
+        /* Mobile Version */
+        /* jumbotron */
+        .jumbotron {
+            height: 500px;
+            width: 100%;
+            background-image: url("assets/images/banner/bromo.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* margin-top: -70px; */
+        }
+
+        /* navbar */
+
+        .navbar-brand {
+            color: #F8FBF6 !important;
+        }
+
+        .nav-link{
+            margin-right: 12px;
+            color: black !important;
+        }
+
+        .tombol{
+            border-radius: 5px;
+            background-color: #76B840;
+            border:none;
+            font-size: 14px;
+            font-weight: 500;
+            color: white !important;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        /* hero title */
+        .display-4 {
+            text-align: center;
+            color: #F4F6F2;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0,7);
+        }
+        
+        .lead{
+            color: #F4F6F2;
+            text-align: center;
+            font-size: 14px;
+            width: 236px;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0,7);
+        }
+
+        .get-started {
+            background-color: #73DB1F !important;
+            color: #ECF3E6;
+            margin-top: 40px;
+            border-radius: 5px;
+            border: none;
+            z-index: 3;
+        }
+
+        .get-started:hover {
+            background-color: #76B840;
+        }
+
+        .jumbotron .container{
+            width: 470px;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Noto Sans', sans-serif;
+            margin-top: 78px;
+        }
+
+        /* statistic */
+
+        .statistic-wrapper{
+            width: 80%;
+            height: auto;
+            background-color: #5B8B33;
+            margin-top: 62px;
+            padding: 10px;
+        }
+
+        .stat{
+            margin-top: 20px;
+            line-height: 1.0;
+            font-weight: 500;
+            font-size: 20px;
+            color: #FFFFFF;
+            padding-bottom: 15px;
+        }
+
+        /* place */
+        .title-place {
+            text-align: center;
+            font-family: 'Vollkorn' serif;
+            margin-top: 35px;
+            margin-bottom: 30px;
+            line-height: 0.8;
+        }
+
+        .popular-text {
+            font-weight: bold;
+            font-size: 28px;
+        }
+
+        /* Desktop Version */
+        @media (min-width: 992px) {
+            /* jumbotron */
+            .jumbotron {
+                margin-top: -70px;
+            }
+
+            /* navbar */
+            .nav-link{
+                margin-right: 12px;
+                color: #F8FBF6 !important;
+            }
+
+            .display-4 {
+            text-align: center;
+            color: #F4F6F2;
+            font-size: 40px;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0,7);
+            }
+        
+            .lead{
+                color: #F4F6F2;
+                text-align: center;
+                font-size: 18px;
+                width: 236px;
+                text-shadow: 1px 1px 1px rgba(0,0,0,0,7);
+            }
+
+            .stat{
+                margin-top: 20px;
+                line-height: 1.0;
+                font-weight: 500;
+                font-size: 28px;
+                color: #FFFFFF;
+                padding-bottom: 15px;
+            }
+
+            /* place */
+            .title-place {
+                text-align: center;
+                font-family: 'Vollkorn' serif;
+                margin-top: 35px;
+                margin-bottom: 30px;
+                line-height: 0.8;
+            }
+
+            .popular-text {
+                font-weight: bold;
+                font-size: 34px;
+            }
+
+            .pop-text2 {
+                font-size: 28;
+                font-weight: 400;
+            }
+            
+            .card-img-top {
+                width: 260px;
+                height: 387px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Travelology</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">Travel Packages</a>
+                <a class="nav-item nav-link" href="#">Services</a>
+                <a class="nav-item nav-link" href="#">Testimoni</a>
+                <a class="nav-item nav-link btn tombol" href="#">Log In</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+        </div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Your Travel Experience is OUR PRIORITY</h1>
+              <center>
+                  <p class="lead">Cheap and fun trips never imagining before</p>
+                  <button type="button" class="btn btn-primary get-started">Get Started</button>
+              </center>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+        <div class="container">
+
+        <section class="statistic">
+                <center>
+                <div class="statistic-wrapper">
+                    <div class="row">
+                        <div class="col-lg-3 stat">
+                            50<br>Partners
+                        </div>
+                        <div class="col-lg-3 stat">
+                            200<br>Hotels
+                        </div>
+                        <div class="col-lg-3 stat">
+                            250<br>Partners
+                        </div>
+                        <div class="col-lg-3 stat">
+                            35<br>Countries
+                        </div>
+                    </div>
+                </div>
+                </center>
+        </section>
+
+        <section class="popular-place">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 title-place">
+                    <p class="popular-text">Popular Place</p>
+                    <p class="pop-text2">Something place always makes you remember</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/place/yulia-agnis-Sf1OpkbfDGA-unsplash.jpg" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/place/fikry-anshor-L7XEhmUxqkY-unsplash.jpg" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/place/nindy-rahmadani-uktyDpxvKSg-unsplash.jpg" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/place/johannes-mandle-NNJolvWMLa4-unsplash.jpg" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    
+
+    <!-- Jquery -->
+    <script src="assets/libraries/jquery/jquery.js"></script>
+    <!-- JS -->
+    <script src="assets/libraries/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
