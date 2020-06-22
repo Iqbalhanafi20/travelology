@@ -14,172 +14,7 @@
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/styles/main.css">
-    <style>
-        /* Mobile Version */
-        /* jumbotron */
-        .jumbotron {
-            height: 500px;
-            width: 100%;
-            background-image: url("assets/images/banner/bromo.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            /* margin-top: -70px; */
-        }
 
-        /* navbar */
-
-        .navbar-brand {
-            color: #F8FBF6 !important;
-        }
-
-        .nav-link{
-            margin-right: 12px;
-            color: black !important;
-        }
-
-        .tombol{
-            border-radius: 5px;
-            background-color: #76B840;
-            border:none;
-            font-size: 14px;
-            font-weight: 500;
-            color: white !important;
-            padding-left: 25px;
-            padding-right: 25px;
-        }
-
-        /* hero title */
-        .display-4 {
-            text-align: center;
-            color: #F4F6F2;
-            font-size: 30px;
-            text-shadow: 1px 1px 1px rgba(0,0,0,0,7);
-        }
-        
-        .lead{
-            color: #F4F6F2;
-            text-align: center;
-            font-size: 14px;
-            width: 236px;
-            text-shadow: 1px 1px 1px rgba(0,0,0,0,7);
-        }
-
-        .get-started {
-            background-color: #73DB1F !important;
-            color: #ECF3E6;
-            margin-top: 40px;
-            border-radius: 5px;
-            border: none;
-            z-index: 3;
-        }
-
-        .get-started:hover {
-            background-color: #76B840;
-        }
-
-        .jumbotron .container{
-            width: 470px;
-            font-size: 25px;
-            font-weight: bold;
-            font-family: 'Noto Sans', sans-serif;
-            margin-top: 78px;
-        }
-
-        /* statistic */
-
-        .statistic-wrapper{
-            width: 80%;
-            height: auto;
-            background-color: #5B8B33;
-            margin-top: 62px;
-            padding: 10px;
-        }
-
-        .stat{
-            margin-top: 20px;
-            line-height: 1.0;
-            font-weight: 500;
-            font-size: 20px;
-            color: #FFFFFF;
-            padding-bottom: 15px;
-        }
-
-        /* place */
-        .title-place {
-            text-align: center;
-            font-family: 'Vollkorn' serif;
-            margin-top: 35px;
-            margin-bottom: 30px;
-            line-height: 0.8;
-        }
-
-        .popular-text {
-            font-weight: bold;
-            font-size: 28px;
-        }
-
-        /* Desktop Version */
-        @media (min-width: 992px) {
-            /* jumbotron */
-            .jumbotron {
-                margin-top: -70px;
-            }
-
-            /* navbar */
-            .nav-link{
-                margin-right: 12px;
-                color: #F8FBF6 !important;
-            }
-
-            .display-4 {
-            text-align: center;
-            color: #F4F6F2;
-            font-size: 40px;
-            text-shadow: 1px 1px 1px rgba(0,0,0,0,7);
-            }
-        
-            .lead{
-                color: #F4F6F2;
-                text-align: center;
-                font-size: 18px;
-                width: 236px;
-                text-shadow: 1px 1px 1px rgba(0,0,0,0,7);
-            }
-
-            .stat{
-                margin-top: 20px;
-                line-height: 1.0;
-                font-weight: 500;
-                font-size: 28px;
-                color: #FFFFFF;
-                padding-bottom: 15px;
-            }
-
-            /* place */
-            .title-place {
-                text-align: center;
-                font-family: 'Vollkorn' serif;
-                margin-top: 35px;
-                margin-bottom: 30px;
-                line-height: 0.8;
-            }
-
-            .popular-text {
-                font-weight: bold;
-                font-size: 34px;
-            }
-
-            .pop-text2 {
-                font-size: 28;
-                font-weight: 400;
-            }
-            
-            .card-img-top {
-                width: 260px;
-                height: 387px;
-            }
-        }
-    </style>
 
 </head>
 <body>
@@ -203,16 +38,16 @@
     </nav>
 
         </div>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Your Travel Experience is OUR PRIORITY</h1>
-              <center>
-                  <p class="lead">Cheap and fun trips never imagining before</p>
-                  <button type="button" class="btn btn-primary get-started">Get Started</button>
-              </center>
+        <div class="wrapper-jumbotron"></div>
+            <div class="jumbotron jumbotron-fluid">
+                    <div class="container hero-wrapper">
+                        <h1 class="display-4">Your Travel Experience is OUR PRIORITY</h1>
+                        <center>
+                            <p class="lead">Cheap and fun trips never imagining before</p>
+                            <button type="button" class="btn btn-primary get-started">Get Started</button>
+                        </center>
+                    </div>
             </div>
-
-            <div class="overlay"></div>
         </div>
         <div class="container">
 
@@ -221,16 +56,16 @@
                 <div class="statistic-wrapper">
                     <div class="row">
                         <div class="col-lg-3 stat">
-                            50<br>Partners
+                            50<br><span>Partners</span>
                         </div>
                         <div class="col-lg-3 stat">
-                            200<br>Hotels
+                            200<br><span>Hotels</span>
                         </div>
                         <div class="col-lg-3 stat">
-                            250<br>Partners
+                            250<br><span>Partners</span>
                         </div>
                         <div class="col-lg-3 stat">
-                            35<br>Countries
+                            35<br><span>Countries</span>
                         </div>
                     </div>
                 </div>
@@ -248,7 +83,9 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-12">
                     <div class="card">
+                        <div class="title-places">INDONESIA<br><span>CITUMANG, PANGANDARAN</span></div>
                         <img class="card-img-top" src="assets/images/place/yulia-agnis-Sf1OpkbfDGA-unsplash.jpg" alt="Card image cap">
+                        <center><button type="button" class="btn btn-primary letsgo center-block">Let's Go</button></center>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-12">
