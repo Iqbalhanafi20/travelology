@@ -126,6 +126,7 @@
 
         .card {
             margin: 0px 15px 10px 15px;
+            position: relative;
         }
 
 
@@ -156,6 +157,12 @@
             width: 139px;
             height: auto;
             padding: 5px 5px;
+        }
+
+        .card button {
+            position : absolute;
+            margin-top: -80px;
+            margin-left: 25%;
         }
 
 
@@ -266,6 +273,7 @@
 
             .card {
                 margin: 0px 15px 10px 15px;
+                position: relative;
             }
             
             .card-img-top {
@@ -298,6 +306,12 @@
                 width: 139px;
                 height: auto;
                 padding: 5px 5px;
+            }
+
+            .card button {
+                position : absolute;
+                margin-top: -75px;
+                margin-left: -3%;
             }
             
         }
