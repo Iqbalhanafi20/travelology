@@ -14,5 +14,11 @@ jQuery( document ).ready( function($) {
 $('.num').counterUp({
     delay: 10,
     time:1000,
-    
 })
+
+// AOS Effect
+AOS.init();
+AOS.init({
+    duration: 900,
+    delay: 0
+});
