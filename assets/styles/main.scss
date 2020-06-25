@@ -154,7 +154,7 @@
         .popular-place .card:hover {
             z-index : 1;
             transform: scale(1.25);
-            box-shadow: 0px 25px 40px rgba(0,0,0,.5);
+            box-shadow: 0px 10px 10px rgba(140,140,140,.5);
             transition: 0.5s;
         }
     
@@ -512,7 +512,7 @@
     .popular-place .card:hover {
         z-index : 1;
         transform: scale(1.25);
-        box-shadow: 0px 25px 40px rgba(0,0,0,.5);
+        box-shadow: 0px 10px 10px rgba(140,140,140,.5);
         transition: 0.5s;
     }
 
