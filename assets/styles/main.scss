@@ -1,4 +1,21 @@
 /* Mobile Version */
+        .navbar {
+            // position: fixed;
+            z-index: 200;
+            width: 100%;
+            left: 0px;
+            transition: 0.5s;
+        }
+
+        .scroll-nav {
+            position: fixed;
+            z-index: 200;
+            width: 100%;
+            left: 0px;
+            background-color: rgba(91,139,51,0.8);
+            transition: 0.6s;
+        }
+
         /* jumbotron */
         .jumbotron{
             position: relative;
@@ -28,9 +45,10 @@
         /* navbar */
 
         .navbar-brand {
-            color: #F8FBF6 !important;
+            color: #73DB1F !important;
             z-index: 4;
         }
+
 
         .nav-link{
             margin-right: 12px;
@@ -310,13 +328,38 @@
             color: white;
         }
 
+
+
+
+
+
+
+
+
 // * Desktop Version * //
 @media (min-width: 992px) {
+.navbar {
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    left: 0px;
+    transition: 0.5s;
+}
+
+.scroll-nav {
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    left: 0px;
+    background-color: rgba(0,0,0,0.8);
+    transition: 0.5s;
+}
+
 .jumbotron{
     position: relative;
     background-color: #000;
     height: 500px;
-    margin-top: -70px;
+    // margin-top: -70px;
 }
 
 .jumbotron::before{
@@ -340,6 +383,7 @@
 }
 
 /* navbar */
+
 .nav-link{
     margin-right: 12px;
     color: #F8FBF6 !important;
@@ -596,5 +640,7 @@
         opacity: 0.5;
         color: white;
     }
+
+    
 
 }
