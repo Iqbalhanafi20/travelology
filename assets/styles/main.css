@@ -118,12 +118,15 @@
 .stat {
   margin-top: 10px;
   line-height: 1.0;
-  font-weight: 500;
   font-size: 20px;
   background-color: #5B8B33;
   color: #FFFFFF;
   padding-bottom: 15px;
   padding-top: 15px;
+}
+
+.num {
+  font-weight: 500 !important;
 }
 
 /* place */
@@ -369,6 +372,10 @@ hr {
     z-index: 4;
   }
   /* navbar */
+  .navbar-brand {
+    color: #F8FBF6 !important;
+    z-index: 4;
+  }
   .nav-link {
     margin-right: 12px;
     color: #F8FBF6 !important;
@@ -406,10 +413,12 @@ hr {
   .stat {
     margin-top: 0px;
     line-height: 1.0;
-    font-weight: 500;
     font-size: 28px;
     color: #FFFFFF;
     padding-bottom: 15px;
+  }
+  .num {
+    font-weight: 500 !important;
   }
   /* place */
   .title-place {

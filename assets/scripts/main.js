@@ -8,3 +8,11 @@ jQuery( document ).ready( function($) {
       }
     });
   });
+
+
+//   counter effect
+$('.num').counterUp({
+    delay: 10,
+    time:1000,
+    
+})
