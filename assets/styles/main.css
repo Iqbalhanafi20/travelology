@@ -12,9 +12,13 @@
   z-index: 200;
   width: 100%;
   left: 0px;
-  background-color: rgba(91, 139, 51, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   -webkit-transition: 0.6s;
   transition: 0.6s;
+}
+
+.scroll-nav .nav-link {
+  color: #F8FBF6 !important;
 }
 
 /* jumbotron */
@@ -45,7 +49,7 @@
 
 /* navbar */
 .navbar-brand {
-  color: #73DB1F !important;
+  color: #5B8B33 !important;
   z-index: 4;
 }
 
@@ -132,7 +136,7 @@
 /* place */
 .title-place {
   text-align: center;
-  font-family: 'Vollkorn' serif;
+  font-family: 'Vollkorn'serif;
   margin-top: 35px;
   margin-bottom: 30px;
   line-height: 0.8;
@@ -234,7 +238,7 @@
 
 .additional-title {
   font-size: 22px;
-  font-family: 'vollkorn' serif;
+  font-family: 'vollkorn'serif;
   font-weight: 500;
   margin-left: 15px;
   margin-bottom: 10px;
@@ -281,7 +285,7 @@
   font-size: 24px;
   text-align: center;
   font-weight: 700;
-  font-family: 'vollkorn' serif;
+  font-family: 'vollkorn'serif;
   margin-bottom: 50px;
 }
 
@@ -307,7 +311,7 @@
 }
 
 .testimoni .card-title {
-  font-family: 'Noto Sans' sans-serif;
+  font-family: 'Noto Sans'sans-serif;
   font-size: 22px;
 }
 
@@ -339,7 +343,7 @@ hr {
           transform: translateY(50px);
   border-top: 1px solid #dbdbdb;
   padding: 30px 0px 10px 0px;
-  font-family: 'Noto Sans' sans-serif;
+  font-family: 'Noto Sans'sans-serif;
   margin-bottom: 50px;
 }
 
@@ -468,7 +472,7 @@ hr {
   /* place */
   .title-place {
     text-align: center;
-    font-family: 'Vollkorn' serif;
+    font-family: 'Vollkorn'serif;
     margin-top: 35px;
     margin-bottom: 30px;
     line-height: 0.8;
@@ -567,7 +571,7 @@ hr {
   }
   .additional-title {
     font-size: 22px;
-    font-family: 'vollkorn' serif;
+    font-family: 'vollkorn'serif;
     font-weight: 500;
     margin-left: 15px;
     margin-bottom: 40px !important;
@@ -606,7 +610,7 @@ hr {
     font-size: 24px;
     text-align: center;
     font-weight: 700;
-    font-family: 'vollkorn' serif;
+    font-family: 'vollkorn'serif;
     margin-bottom: 50px;
   }
   .card-footer {
@@ -628,7 +632,7 @@ hr {
     width: 300px;
   }
   .testimoni .card-title {
-    font-family: 'Noto Sans' sans-serif;
+    font-family: 'Noto Sans'sans-serif;
     font-size: 22px;
   }
   .testimoni .card-text {
@@ -657,7 +661,7 @@ hr {
     border-top: 1px solid #dbdbdb;
     /* border-bottom: 1px solid #dbdbdb; */
     padding: 30px 0px 10px 0px;
-    font-family: 'Noto Sans' sans-serif;
+    font-family: 'Noto Sans'sans-serif;
     margin-bottom: 50px;
   }
   .info p {
