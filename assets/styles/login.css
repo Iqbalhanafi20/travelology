@@ -1,3 +1,7 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .box-head-gradient {
   width: 100%;
   height: 450px;
@@ -46,7 +50,6 @@
   color: white !important;
   padding-left: 30px;
   padding-right: 30px;
-  margin-left: 20px;
 }
 
 .login-box {
@@ -133,6 +136,7 @@
 .login-box .box-textbox .signup a {
   color: #5B8B33 !important;
   font-weight: 700;
+  opacity: 1 !important;
 }
 
 .info {
@@ -166,6 +170,9 @@
 }
 
 @media (min-width: 992px) {
+  body {
+    font-family: 'Noto Sans', sans-serif;
+  }
   .box-head-gradient {
     width: 100%;
     height: 450px;
@@ -230,7 +237,7 @@
   .login-box .box-icon .icon-people {
     width: 110px;
     height: 110px;
-    background-color: #5B8B33;
+    background-color: #76B840;
     border-radius: 100%;
     margin-top: -50%;
     position: relative;
@@ -274,17 +281,17 @@
     color: #5B8B33;
   }
   .login-box .box-textbox .login-btn {
-    background-color: #5B8B33 !important;
+    background-color: #76B840 !important;
     border: none;
   }
   .login-box .box-textbox .signup {
     font-size: 14px;
-    opacity: 0.4;
     text-align: center;
   }
   .login-box .box-textbox .signup a {
     color: #5B8B33 !important;
     font-weight: 700;
+    opacity: 1 !important;
   }
   .info {
     -webkit-transform: translateY(50px);

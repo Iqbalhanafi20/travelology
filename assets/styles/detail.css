@@ -1,1 +1,276 @@
-/* No CSS *//*# sourceMappingURL=detail.css.map */
+body {
+  font-family: 'Noto Sans' sans-serif;
+}
+
+.box-head-gradient {
+  width: 100%;
+  height: 450px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#B8B8B8), to(#FFFFFF));
+  background: linear-gradient(to bottom, #B8B8B8, #FFFFFF);
+  position: relative;
+}
+
+.box-head-gradient .breadcrumb-box {
+  margin-top: 100px;
+}
+
+.box-head-gradient .breadcrumb-section .breadcrumb {
+  background-color: transparent;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.box-head-gradient .breadcrumb-section .breadcrumb li {
+  color: #5B8B33;
+}
+
+.box-head-gradient .breadcrumb-section .breadcrumb a {
+  text-decoration: none;
+  color: #5B8B33;
+}
+
+.box-head-gradient .breadcrumb-section .breadcrumb .active {
+  font-weight: bold;
+}
+
+.box-head-gradient .wrapper-left {
+  width: 100%;
+  height: auto;
+  margin-right: 100px;
+  background-color: #FFFFFF !important;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #cccccc;
+}
+
+.box-head-gradient .wrapper-left .title-detail {
+  line-height: 0.5;
+}
+
+.box-head-gradient .wrapper-left .title-detail .detail-place {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.box-head-gradient .wrapper-left .title-detail .detail-country {
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+.box-head-gradient .wrapper-left .stars-detail {
+  padding-left: 65px;
+}
+
+.box-head-gradient .wrapper-left .stars-detail svg {
+  color: #FAC917;
+}
+
+.box-head-gradient .wrapper-left .img-wrapper img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.box-head-gradient .wrapper-left .about {
+  margin-bottom: 25px;
+}
+
+.box-head-gradient .wrapper-left .about h5 {
+  font-weight: 600;
+}
+
+.box-head-gradient .wrapper-left .about p {
+  opacity: 0.5;
+}
+
+.box-head-gradient .wrapper-left .package-place img {
+  width: 50px;
+  height: 50px;
+}
+
+.box-head-gradient .wrapper-left .package-place .package-title {
+  padding-top: 6px;
+  line-height: 0.3;
+  font-weight: 600;
+}
+
+.box-head-gradient .wrapper-left .package-place .package-title .desc-pack {
+  opacity: 0.5;
+}
+
+.scroll-nav {
+  z-index: 200;
+  width: 100%;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.scroll-nav .nav-link {
+  color: #F8FBF6 !important;
+}
+
+.scroll-nav .navbar-brand {
+  color: #F8FBF6 !important;
+  z-index: 4;
+}
+
+.navbar {
+  margin-bottom: 130px;
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  left: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: white;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar #navbarNavAltMarkup a {
+  color: #5B8B33;
+}
+
+.navbar .navbar-brand {
+  color: #5B8B33 !important;
+  z-index: 4;
+}
+
+.navbar .tombol {
+  border-radius: 5px;
+  background-color: #76B840;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF !important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (min-width: 992px) {
+  body {
+    font-family: 'Noto Sans' sans-serif;
+  }
+  .box-head-gradient {
+    width: 100%;
+    height: 450px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#B8B8B8), to(#FFFFFF));
+    background: linear-gradient(to bottom, #B8B8B8, #FFFFFF);
+    position: relative;
+  }
+  .box-head-gradient .breadcrumb-box {
+    margin-top: 100px;
+  }
+  .box-head-gradient .breadcrumb-section .breadcrumb {
+    background-color: transparent;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .box-head-gradient .breadcrumb-section .breadcrumb li {
+    color: #5B8B33;
+  }
+  .box-head-gradient .breadcrumb-section .breadcrumb a {
+    text-decoration: none;
+    color: #5B8B33;
+  }
+  .box-head-gradient .breadcrumb-section .breadcrumb .active {
+    font-weight: bold;
+  }
+  .box-head-gradient .wrapper-left {
+    width: 100%;
+    height: auto;
+    margin-right: 100px;
+    background-color: #FFFFFF !important;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+  }
+  .box-head-gradient .wrapper-left .title-detail {
+    line-height: 0.5;
+  }
+  .box-head-gradient .wrapper-left .title-detail .detail-place {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .box-head-gradient .wrapper-left .title-detail .detail-country {
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.5;
+  }
+  .box-head-gradient .wrapper-left .stars-detail {
+    padding-left: 65px;
+  }
+  .box-head-gradient .wrapper-left .stars-detail svg {
+    color: #FAC917;
+  }
+  .box-head-gradient .wrapper-left .img-wrapper img {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .box-head-gradient .wrapper-left .about {
+    margin-bottom: 25px;
+  }
+  .box-head-gradient .wrapper-left .about h5 {
+    font-weight: 600;
+  }
+  .box-head-gradient .wrapper-left .about p {
+    opacity: 0.5;
+  }
+  .box-head-gradient .wrapper-left .package-place img {
+    width: 50px;
+    height: 50px;
+  }
+  .box-head-gradient .wrapper-left .package-place .package-title {
+    padding-top: 6px;
+    line-height: 0.3;
+    font-weight: 600;
+  }
+  .box-head-gradient .wrapper-left .package-place .package-title .desc-pack {
+    opacity: 0.5;
+  }
+  .scroll-nav {
+    z-index: 200;
+    width: 100%;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .scroll-nav .nav-link {
+    color: #F8FBF6 !important;
+  }
+  .scroll-nav .navbar-brand {
+    color: #F8FBF6 !important;
+    z-index: 4;
+  }
+  .navbar {
+    margin-bottom: 130px;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    left: 0px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .navbar #navbarNavAltMarkup a {
+    color: #5B8B33;
+  }
+  .navbar .navbar-brand {
+    color: #5B8B33 !important;
+    z-index: 4;
+  }
+  .navbar .tombol {
+    border-radius: 5px;
+    background-color: #76B840;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+  }
+}
+/*# sourceMappingURL=detail.css.map */
