@@ -1,6 +1,6 @@
 /* Mobile Version */
 .navbar {
-    // position: fixed;
+    position: fixed;
     z-index: 200;
     width: 100%;
     left: 0px;
@@ -9,7 +9,7 @@
 
 .scroll-nav {
     position: fixed;
-    z-index: 200;
+    z-index: 1000;
     width: 100%;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.8);
@@ -25,21 +25,33 @@
     position: relative;
     background-color: #000;
     height: 500px;
-}
-
-.jumbotron::before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
+    // margin-top: -70px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner/bromo.jpg");
+    background-position: 0px;
+    background-size: cover;
     width: 100%;
     height: 500px;
     z-index: 0;
-    opacity: 0.5;
-    background-image: url("../images/banner/bromo.jpg");
-    background-size: cover;
 }
+// .jumbotron {
+//     position: relative;
+//     background-color: #000;
+//     height: 500px;
+// }
+
+// .jumbotron::before {
+//     content: ' ';
+//     display: block;
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 500px;
+//     z-index: 0;
+//     opacity: 0.5;
+//     background-image: url("../images/banner/bromo.jpg");
+//     background-size: cover;
+// }
 
 .jumbotron .container {
     position: relative;
@@ -207,7 +219,7 @@
     width: 139px;
     height: auto;
     padding: 5px 5px;
-    z-index: 26;
+    z-index: 100;
 }
 
 
@@ -220,7 +232,7 @@
 .popular-place .card:hover .letsgo {
     transform: translateY(0);
     transition-delay: 0.3s;
-    z-index: 1;
+    z-index: 100;
 }
 
 .card button {
@@ -290,16 +302,18 @@
     color: #FFFFFF !important;
 }
 
-.testimoni .image-profile {
-    width: 160px;
-    height: 160px;
-    /* background-image: url("../images/foto/IMG_0348.JPG"); */
-    background-color: silver;
+.testimoni .image-profile img {
+    width: 150px;
+    height: 150px;
+    // background-image: url("../images/foto/IMG_0348.JPG");
+    // // background-color: silver;
     border: 1px solid grey;
     border-radius: 100px;
     margin-bottom: 20px;
     margin-top: 10px;
-    background-position: -450px 1200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .testimoni .card {
@@ -388,6 +402,10 @@ hr {
         // left: 0px;
         background-color: rgba(0, 0, 0, 0.8);
         transition: 0.5s;
+
+        .navbar-brand{
+            color: #5B8B33 !important;
+        }
     }
 
     .jumbotron {
@@ -395,22 +413,28 @@ hr {
         background-color: #000;
         height: 500px;
         // margin-top: -70px;
-    }
-
-    .jumbotron::before {
-        content: ' ';
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner/bromo.jpg");
+        background-position: 0px;
+        background-size: cover;
         width: 100%;
         height: 500px;
         z-index: 0;
-        opacity: 0.5;
-        background-image: url("../images/banner/bromo.jpg");
-        background-position: 0px;
-        background-size: cover;
     }
+
+    // .jumbotron::before {
+    //     content: ' ';
+    //     display: block;
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    //     width: 100%;
+    //     height: 500px;
+    //     z-index: 0;
+        // opacity: 0.5;
+        // background-image: url("../images/banner/bromo.jpg");
+        // background-position: 0px;
+        // background-size: cover;
+    // }
 
     .jumbotron .container {
         position: relative;
@@ -570,7 +594,7 @@ hr {
         width: 139px;
         height: auto;
         padding: 5px 5px;
-        z-index: 26;
+        z-index: 100;
     }
 
 
@@ -583,7 +607,7 @@ hr {
     .popular-place .card:hover .letsgo {
         transform: translateY(0);
         transition-delay: 0.3s;
-        z-index: 1;
+        z-index: 100;
     }
 
     .card button {
@@ -652,17 +676,21 @@ hr {
         color: #FFFFFF !important;
     }
 
-    .testimoni .image-profile {
-        width: 160px;
-        height: 160px;
-        /* background-image: url("../images/foto/IMG_0348.JPG"); */
-        background-color: silver;
+    .testimoni .image-profile img {
+        width: 150px;
+        height: 150px;
+        // background-image: url("../images/foto/IMG_0348.JPG");
+        // // background-color: silver;
         border: 1px solid grey;
-        border-radius: 100px;
+        border-radius: 50%;
         margin-bottom: 20px;
         margin-top: 10px;
-        background-position: -450px 1200px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
+
+
 
     .testimoni .card {
         width: 300px;

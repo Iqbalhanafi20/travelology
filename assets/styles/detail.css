@@ -97,6 +97,30 @@ body {
   opacity: 0.5;
 }
 
+.box-head-gradient .wrapper-right {
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px 10px 10px 10px;
+  border: 1px solid #cccccc;
+}
+
+.box-head-gradient .wrapper-right .box-icon-people .people-wrapper img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  background-image: url("../images/foto/cropiqbal.jpg");
+  margin: 0px 10px 10px 0px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-head-gradient .wrapper-right .box-icon-people .clear {
+  clear: left;
+}
+
 .scroll-nav {
   z-index: 200;
   width: 100%;
@@ -228,6 +252,62 @@ body {
   .box-head-gradient .wrapper-left .package-place .package-title .desc-pack {
     opacity: 0.5;
   }
+  .box-head-gradient .wrapper-right {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px 10px 10px 10px;
+    border: 1px solid #cccccc;
+  }
+  .box-head-gradient .wrapper-right .tombol {
+    border-radius: 5px;
+    background-color: #76B840;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .box-head-gradient .wrapper-right .box-icon-people .people-wrapper img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-image: url("../images/foto/cropiqbal.jpg");
+    margin: 0px 5px 10px 0px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-head-gradient .wrapper-right .box-icon-people .people-wrapper .more-people {
+    width: 40px;
+    height: 40px;
+    background-color: #cccccc;
+    float: left;
+    margin: 0px 10px 10px 0px;
+    border-radius: 50%;
+    line-height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .box-head-gradient .wrapper-right .box-icon-people .people-wrapper .more-people p {
+    margin: 0 auto;
+    color: #5B8B33;
+  }
+  .box-head-gradient .wrapper-right .box-icon-people .clear {
+    clear: left;
+  }
+  .box-head-gradient .wrapper-right .detail-trip {
+    line-height: 0.6;
+  }
+  .box-head-gradient .wrapper-right .detail-trip .kanan p {
+    float: right;
+  }
   .scroll-nav {
     z-index: 200;
     width: 100%;
@@ -253,6 +333,7 @@ body {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     font-family: 'Noto Sans', sans-serif;
+    background-color: transparent;
   }
   .navbar #navbarNavAltMarkup a {
     color: #5B8B33;
