@@ -111,6 +111,18 @@ body{
         padding: 20px 10px 10px 10px;
         border: 1px solid #cccccc;
 
+        .tombol {
+            border-radius: 5px;
+            background-color: #76B840;
+            border: none;
+            font-size: 14px;
+            font-weight: 500;
+            color: #FFFFFF !important;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-weight: bold;
+        }
+
         .box-icon-people{
             // float: right;
 
@@ -120,15 +132,110 @@ body{
                     height: 40px;
                     float: left;
                     background-image: url("../images/foto/cropiqbal.jpg");
-                    margin: 0px 10px 10px 0px;
+                    margin: 0px 5px 10px 0px;
                     border-radius: 50%;
                     background-repeat: no-repeat;
                     background-size: cover;
+                }
+
+                .more-people{
+                    width: 40px;
+                    height: 40px;
+                    background-color: #cccccc;
+                    float: left;
+                    margin: 0px 10px 10px 0px;
+                    border-radius: 50%;
+                    line-height: 50%;
+                    display:flex;
+                    align-items:center;
+
+                    p{
+                        margin: 0 auto;
+                        color: #5B8B33;
+                    }
                 }
             }
             
             .clear{
                 clear: left;
+            }
+        }
+
+        .title-information, .title-member{
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .detail-trip{
+            line-height: 0;
+            font-size: 14px;
+            margin-bottom: 10px;
+
+            .kanan p{
+                float: right;
+                font-size: 14px;
+                opacity: 0.5;
+                color: black;
+            }
+        }
+    }
+
+    .wrapper-right-btm{
+        width: 100%;
+        height: auto;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 20px 10px 20px 10px;
+        border: 1px solid #cccccc;
+        margin-top: 20px;
+
+        #carouselExampleIndicators{
+            display:flex;
+            align-items:center;
+
+            .carousel-inner{
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .carousel-control-next-icon, .carousel-control-prev-icon{
+                background-color: #76B840 !important;
+                border-radius: 50%;
+                padding:5px;
+            }
+        }
+
+
+        .title-member{
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .carousel-inner{
+            align-items: center;
+            display: flex;
+
+            .carousel-item{
+                margin: 0 auto;
+            }
+
+            .isi-testi{
+                align-items: center;
+                width: 100%;
+                img{
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 50%;
+                    margin-left: 70px;
+                    margin-bottom: 10px;
+                }
+                
+                p{
+                    font-size: 12px;
+                    opacity: 0.6;
+                    margin-left: 10px;
+                    text-align: center;
+                }
             }
         }
     }
@@ -319,6 +426,7 @@ body{
                     color: #FFFFFF !important;
                     padding-left: 30px;
                     padding-right: 30px;
+                    font-weight: bold;
                 }
 
                 .box-icon-people{
@@ -359,11 +467,72 @@ body{
                     }
                 }
 
+                .title-information, .title-member{
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
                 .detail-trip{
                     line-height: 0.6;
+                    font-size: 14px;
+                    margin-bottom: 10px;
 
                     .kanan p{
                         float: right;
+                        font-size: 14px;
+                        opacity: 0.5;
+                        color: black;
+                    }
+                }
+            }
+
+            .wrapper-right-btm{
+                width: 100%;
+                height: auto;
+                background-color: #FFFFFF;
+                border-radius: 10px;
+                padding: 20px 10px 20px 10px;
+                border: 1px solid #cccccc;
+                margin-top: 20px;
+
+                #carouselExampleIndicators{
+                    display:flex;
+                    align-items:center;
+
+                    .carousel-inner{
+                        width: 80%;
+                        margin: 0 auto;
+                    }
+
+                    .carousel-control-next-icon, .carousel-control-prev-icon{
+                        background-color: #76B840 !important;
+                        border-radius: 50%;
+                        padding:5px;
+                    }
+                }
+
+
+                .title-member{
+                    font-weight: 600;
+                    text-align: center;
+                }
+
+                .carousel-inner{
+                    .isi-testi{
+                        align-items: center;
+                        width: 100%;
+                        img{
+                            width: 90px;
+                            height: 90px;
+                            border-radius: 50%;
+                            margin-left: 20px;
+                        }
+                        
+                        p{
+                            font-size: 12px;
+                            opacity: 0.6;
+                            margin-left: 10px;
+                        }
                     }
                 }
             }

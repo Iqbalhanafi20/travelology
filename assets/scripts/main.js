@@ -22,3 +22,6 @@ AOS.init({
     duration: 900,
     delay: 0
 });
+
+// carrousel
+$('.carousel').carousel()
