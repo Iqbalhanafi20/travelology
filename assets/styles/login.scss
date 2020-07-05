@@ -6,7 +6,7 @@ body{
 .box-head-gradient {
     width: 100%;
     height: 450px;
-    background: linear-gradient(to bottom , #B8B8B8, #FFFFFF);
+    // background: linear-gradient(to bottom , #B8B8B8, #FFFFFF);
 }
 
 .scroll-nav {
@@ -14,7 +14,7 @@ body{
     z-index: 200;
     width: 100%;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(91, 139, 51, 0.8);
     transition: 0.5s;
 
     .nav-link{
@@ -22,8 +22,15 @@ body{
     }
 
     .navbar-brand {
-        color: #73DB1F !important;
+        color: #ffffff !important;
+        font-size: 22px;
         z-index: 4;
+        transition: 0.8s;
+        // background-color: #5B8B33;
+    }
+    
+    .tombol{
+        background-color: #dec62c !important;
     }
 }
 
@@ -38,13 +45,13 @@ body{
     }
 
     .navbar-brand {
-        color: #5B8B33 !important;
+        color: #5B8B33;
         z-index: 4;
     }
 
     .tombol {
         border-radius: 5px;
-        background-color: #76B840;
+        background-color: #dec62c;
         border: none;
         font-size: 14px;
         font-weight: 500;
@@ -188,7 +195,7 @@ body{
     .box-head-gradient {
         width: 100%;
         height: 450px;
-        background: linear-gradient(to bottom , #B8B8B8, #FFFFFF);
+        // background: linear-gradient(to bottom , #B8B8B8, #FFFFFF);
         position: relative;
     }
 
@@ -197,7 +204,7 @@ body{
         z-index: 200;
         width: 100%;
         left: 0px;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(91, 139, 51, 0.8);
         transition: 0.5s;
 
         .nav-link{
@@ -205,8 +212,11 @@ body{
         }
 
         .navbar-brand {
-            color: #F8FBF6 !important;
+            color: #ffffff !important;
+            font-size: 22px;
             z-index: 4;
+            transition: 0.8s;
+            // background-color: #5B8B33;
         }
     }
 

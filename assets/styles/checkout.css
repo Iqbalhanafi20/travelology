@@ -1,0 +1,156 @@
+.box-header {
+  width: 100%;
+  height: 50px;
+  background-color: #5B8B33;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box-header .navbar-brand {
+  color: #FFFFFF !important;
+  font-size: 22px;
+}
+
+.box-head-gradient {
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+
+.box-head-gradient .breadcrumb-box {
+  margin-top: 100px;
+}
+
+.box-head-gradient .breadcrumb-section .breadcrumb {
+  background-color: transparent;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.box-head-gradient .breadcrumb-section .breadcrumb li {
+  color: #5B8B33;
+}
+
+.box-head-gradient .breadcrumb-section .breadcrumb a {
+  text-decoration: none;
+  color: #5B8B33;
+}
+
+.box-head-gradient .breadcrumb-section .breadcrumb .active {
+  font-weight: bold;
+}
+
+.box-head-gradient .checkout .left-checkout {
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px 30px 10px 20px;
+  border: 1px solid #cccccc;
+  line-height: 0.8;
+}
+
+.box-head-gradient .checkout .left-checkout .title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.box-head-gradient .checkout .left-checkout .detail-title {
+  color: #9F9C9C;
+  font-weight: 400;
+}
+
+.box-head-gradient .checkout .left-checkout .people-wrapper img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  background-image: url("../images/foto/cropiqbal.jpg");
+  margin: 0px 5px 10px 0px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-head-gradient .checkout .left-checkout .people-wrapper tr td {
+  line-height: center;
+}
+
+.box-head-gradient .checkout .left-checkout table img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 992px) {
+  body {
+    font-family: "Noto Sans" Sans-serif;
+  }
+  .box-header {
+    width: 100%;
+    height: 50px;
+    background-color: #5B8B33;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .box-header .navbar-brand {
+    color: #FFFFFF !important;
+    font-size: 22px;
+  }
+  .box-head-gradient {
+    width: 100%;
+    height: 450px;
+    position: relative;
+  }
+  .box-head-gradient .breadcrumb-box {
+    margin-top: 100px;
+  }
+  .box-head-gradient .breadcrumb-section .breadcrumb {
+    background-color: transparent;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .box-head-gradient .breadcrumb-section .breadcrumb li {
+    color: #5B8B33;
+  }
+  .box-head-gradient .breadcrumb-section .breadcrumb a {
+    text-decoration: none;
+    color: #5B8B33;
+  }
+  .box-head-gradient .breadcrumb-section .breadcrumb .active {
+    font-weight: bold;
+  }
+  .box-head-gradient .checkout .left-checkout {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px 10px 10px 20px;
+    border: 1px solid #cccccc;
+    line-height: 0.8;
+  }
+  .box-head-gradient .checkout .left-checkout .title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .box-head-gradient .checkout .left-checkout .detail-title {
+    color: #9F9C9C;
+    font-weight: 400;
+  }
+  .box-head-gradient .checkout .left-checkout .people-wrapper img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-image: url("../images/foto/cropiqbal.jpg");
+    margin: 0px 5px 10px 0px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box-head-gradient .checkout .left-checkout .people-wrapper tr td {
+    line-height: center;
+  }
+  .box-head-gradient .checkout .left-checkout table img {
+    width: 20px;
+    height: 20px;
+  }
+}
+/*# sourceMappingURL=checkout.css.map */

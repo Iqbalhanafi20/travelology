@@ -25,3 +25,8 @@ AOS.init({
 
 // carrousel
 $('.carousel').carousel()
+
+// trigger change color
+// $(".navbar-toggler").click(function(){
+//   $(".navbar").addClass("navbar-putih")
+// })

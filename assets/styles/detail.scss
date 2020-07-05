@@ -5,7 +5,7 @@ body{
 .box-head-gradient {
     width: 100%;
     height: 450px;
-    background: linear-gradient(to bottom , #B8B8B8, #FFFFFF);
+    // background: linear-gradient(to bottom , #B8B8B8, #FFFFFF);
     position: relative;
 
     .breadcrumb-box{
@@ -243,25 +243,6 @@ body{
 
 }
 
-.scroll-nav {
-    // position: fixed;
-    z-index: 200;
-    width: 100%;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    transition: 0.5s;
-    font-family: 'Noto Sans', sans-serif;
-
-    .nav-link{
-        color: #F8FBF6 !important;
-    }
-
-    .navbar-brand {
-        color: #F8FBF6 !important;
-        z-index: 4;
-    }
-}
-
 // navigation bar
 .navbar{
     margin-bottom: 130px;
@@ -286,7 +267,7 @@ body{
 
     .tombol {
         border-radius: 5px;
-        background-color: #76B840;
+        background-color: #dec62c;
         border: none;
         font-size: 14px;
         font-weight: 500;
@@ -296,6 +277,37 @@ body{
     }
 
 }
+
+
+.scroll-nav {
+    // position: fixed;
+    z-index: 200;
+    width: 100%;
+    left: 0px;
+    background-color: rgba(91, 139, 51, 0.8) !important;
+    transition: 0.5s;
+    font-family: 'Noto Sans', sans-serif;
+
+    .nav-link{
+        color: #F8FBF6 !important;
+    }
+
+    .navbar-brand {
+        color: #FFFFFF !important;
+        z-index: 4;
+        font-size: 22px;
+        transition: 0.8s;
+    }
+
+    .tombol{
+        background-color: #dec62c !important;
+    }
+}
+
+
+
+
+
 
 
 
@@ -313,7 +325,7 @@ body{
     .box-head-gradient {
         width: 100%;
         height: 450px;
-        background: linear-gradient(to bottom , #B8B8B8, #FFFFFF);
+        // background: linear-gradient(to bottom , #B8B8B8, #FFFFFF);
         position: relative;
     
         .breadcrumb-box{
@@ -539,26 +551,7 @@ body{
      
     
     }
-    
-    .scroll-nav {
-        // position: fixed;
-        z-index: 200;
-        width: 100%;
-        left: 0px;
-        background-color: rgba(0, 0, 0, 0.8);
-        transition: 0.5s;
-        font-family: 'Noto Sans', sans-serif;
-    
-        .nav-link{
-            color: #F8FBF6 !important;
-        }
-    
-        .navbar-brand {
-            color: #F8FBF6 !important;
-            z-index: 4;
-        }
-    }
-    
+
     // navigation bar
     .navbar{
         margin-bottom: 130px;
@@ -575,7 +568,8 @@ body{
                 color: #5B8B33;
             }
         }
-    
+        
+ 
         .navbar-brand {
             color: #5B8B33 !important;
             z-index: 4;
@@ -594,6 +588,31 @@ body{
         }
     
     }
+    
+    .scroll-nav {
+        // position: fixed;
+        z-index: 200;
+        width: 100%;
+        left: 0px;
+        // background-color: rgba(91, 139, 51, 0.8);
+        transition: 0.5s;
+        font-family: 'Noto Sans', sans-serif;
+    
+        .nav-link{
+            color: #F8FBF6 !important;
+        }
+    
+        .tombol{
+            background-color: #dec62c !important;
+        }
+
+        .navbar-brand {
+            color: #FFFFFF !important;
+            z-index: 4;
+        }
+    }
+    
+    
     
 }
 
