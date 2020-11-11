@@ -49,7 +49,7 @@
                     </div>
 
                     <a class="nav-item nav-link" href="#">Testimoni</a>
-                    <a class="nav-item nav-link btn tombol" href="login.html">Log In</a>
+                    <a class="nav-item nav-link btn tombol" href="/login">Log In</a>
                 </div>
             </div>
         </div>

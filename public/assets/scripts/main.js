@@ -24,7 +24,15 @@ AOS.init({
 });
 
 // carrousel
-$('.carousel').carousel()
+$('.carousel').carousel();
+
+// slick carousel automate
+$('.autoplay').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
 
 // trigger change color
 // $(".navbar-toggler").click(function(){

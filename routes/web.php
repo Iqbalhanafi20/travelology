@@ -12,11 +12,27 @@
 */
 
 // Route::get('/', function () {
-//     return view('welcome');
+    // return view('welcome');
 // });
 
-Route::get('/','MainController@index');
-Route::get('/detail','MainController@detail_place');
-Route::get('/login','MainController@login');
-Route::get('/checkout','MainController@checkout');
-Route::get('/confirmation','MainController@confirmation');
+Route::prefix('/admin')
+->namespace('Admin')
+->group(function(){
+    Route::get('/','DashboardController@index')
+        ->name('dashboard');
+});
+
+// // Menampilkan halaman utama
+// Route::get('/','MainController@index')->name('utama');
+
+// // Menampilkan halaman detail tempat
+// Route::get('/detail','MainController@detail_place');
+
+// // Menampilkan halaman login
+// Route::get('/login','MainController@login');
+
+// // Menampilkan halaman checkout
+// Route::get('/checkout','MainController@checkout');
+
+// // Menampilkan halaman konfirmasi pemesanan
+// Route::get('/confirmation','MainController@confirmation');
