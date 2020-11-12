@@ -177,5 +177,79 @@
         </section>
 
     </div>
+
+    <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="testimoni-text">OUR TESTIMONI</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card text-center" data-aos="zoom-in">
+                            <div class="card-body">
+                                <center>
+                                    <div class="image-profile" alt="">
+                                        <img src="assets/images/foto/IMG_0348.JPG" alt="">
+                                    </div>
+                                </center>
+                                <h5 class="card-title">Iqbal Hanafi</h5>
+                                <p class="card-text">" Saya sangat senang sekali
+                                    bisa ikut trip bareng
+                                    tim travelology, sangat
+                                    menyenangkan "</p>
+                            </div>
+                            <div class="card-footer text-muted">
+                                CITUMANG, PANGANDARAN
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card text-center" data-aos="zoom-in">
+                            <div class="card-body">
+                                <center>
+                                    <div class="image-profile">
+                                        <img src="assets/images/foto/IMG_0342.JPG" alt="">
+                                    </div>
+                                </center>
+                                <h5 class="card-title">Siti Wahyuni</h5>
+                                <p class="card-text">" Gak salah pilih Travelology,
+                                    Staffnya berpengalaman
+                                    dan sangat membantu "</p>
+                            </div>
+                            <div class="card-footer text-muted">
+                                ORCHID FOREST, BANDUNG
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card text-center" data-aos="zoom-in">
+                            <div class="card-body">
+                                <center>
+                                    <div class="image-profile">
+                                        <img src="assets/images/foto/IMG_0494.JPG" alt="">
+                                    </div>
+                                </center>
+                                <h5 class="card-title">Nuzul Abunizar</h5>
+                                <p class="card-text">" Ingin jalan - jalan lagi
+                                    sama om dari travelology
+                                    lagi :) "</p>
+                            </div>
+                            <div class="card-footer text-muted">
+                                UMBUL PONGGOK, KLATEN
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <center>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="#" class="btn btn-primary getstart">Get Started</a>
+                            <a href="#" class="btn btn-primary needhelp">Need Help</a>
+                        </div>
+                    </div>
+                </center>
+            </div>
 </main>
 @endsection()

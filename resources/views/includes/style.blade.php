@@ -1,7 +1,15 @@
-<!-- Custom fonts for this template-->
-<link href="{{ url('backend/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet" href="{{ url('assets/libraries/bootstrap/css/bootstrap.css') }}">
 
-<!-- Custom styles for this template-->
-<link href="{{ url('backend/css/sb-admin-2.min.css') }}" rel="stylesheet">
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+<!-- Main CSS -->
+<link rel="stylesheet" href="{{ url('assets/styles/main.css') }}">
+<link rel="stylesheet" href="{{ url('assets/styles/detail.css') }}">
+<!-- AOS Effect -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">

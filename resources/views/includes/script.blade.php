@@ -1,16 +1,10 @@
-<!-- Bootstrap core JavaScript-->
-<script src="{{ url('backend/vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ url('backend/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="{{ url('backend/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="{{ url('backend/js/sb-admin-2.min.js') }}"></script>
-
-    <!-- Page level plugins -->
-    <script src="{{ url('backend/vendor/chart.js/Chart.min.js') }}"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="{{ url('backend/js/demo/chart-area-demo.js') }}"></script>
-    <script src="{{ url('backend/js/demo/chart-pie-demo.js') }}"></script>
+<!-- Jquery -->
+<script src="{{ url('assets/libraries/jquery/jquery.js') }}"></script>
+    <!-- counterUp -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <!-- AOS Effect -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- JS -->
+    <script src="{{ url('assets/libraries/bootstrap/js/bootstrap.js') }}"></script>
+    <script src="{{ url('assets/scripts/main.js') }}"></script>

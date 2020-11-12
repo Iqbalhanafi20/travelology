@@ -299,7 +299,8 @@
 
 .box-effect {
     width: 100%;
-    height: 300px;
+    // height: 300px;
+    height:auto;
     background: linear-gradient(to bottom, #FFFCFC, #E3E0E0)
 }
 
@@ -316,7 +317,7 @@
     color: #FFFFFF !important;
 }
 
-.testimoni .image-profile img {
+.image-profile img {
     width: 150px;
     height: 150px;
     // background-image: url("../images/foto/IMG_0348.JPG");
@@ -388,6 +389,8 @@ hr {
 
 .footer p {
     opacity: 0.5;
+    line-height: middle;
+    vertical-align: center;
     color: white;
 }
 
@@ -681,7 +684,8 @@ hr {
 
     .box-effect {
         width: 100%;
-        height: 300px;
+        // height: 300px;
+        height:auto;
         background: linear-gradient(to bottom, #FFFCFC, #E3E0E0)
     }
 
@@ -698,7 +702,7 @@ hr {
         color: #FFFFFF !important;
     }
 
-    .testimoni .image-profile img {
+    .image-profile img {
         width: 150px;
         height: 150px;
         // background-image: url("../images/foto/IMG_0348.JPG");
@@ -772,6 +776,8 @@ hr {
 
     .footer p {
         opacity: 0.5;
+        line-height: middle;
+        vertical-align: center;
         color: white;
     }
 
