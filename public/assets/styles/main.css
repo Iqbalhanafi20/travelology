@@ -276,8 +276,6 @@
 .box-effect {
   width: 100%;
   height: auto;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFFCFC), to(#E3E0E0));
-  background: linear-gradient(to bottom, #FFFCFC, #E3E0E0);
 }
 
 .testimoni-text {
@@ -413,14 +411,18 @@ hr {
   }
   /* navbar */
   .navbar-brand {
-    color: #F8FBF6 !important;
+    color: #73DB1F !important;
     z-index: 4;
   }
   .nav-link {
     margin-right: 12px;
-    color: #F8FBF6 !important;
+    color: #73DB1F !important;
     position: relative;
     z-index: 20;
+    text-shadow: 0.2px 0.2px grey;
+  }
+  .tombol {
+    color: #FFF !important;
   }
   /* hero */
   .hero-wrapper {
@@ -596,8 +598,6 @@ hr {
   .box-effect {
     width: 100%;
     height: auto;
-    background: -webkit-gradient(linear, left top, left bottom, from(#FFFCFC), to(#E3E0E0));
-    background: linear-gradient(to bottom, #FFFCFC, #E3E0E0);
   }
   .testimoni-text {
     font-size: 24px;

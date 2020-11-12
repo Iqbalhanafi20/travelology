@@ -1,26 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
+@extends('layouts.content')
+@section('title','Checkout Travel')
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/libraries/bootstrap/css/bootstrap.css">
-
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="assets/styles/checkout.css">
-</head>
-<body>
-    <div class="box-header"><center><a class="navbar-brand" href="index.html">Travelology</a></center></div>
-    <div class="box-head-gradient">
+@section('content')
+<link rel="stylesheet" href="{{ url('assets/styles/checkout.css') }}">
+<div class="box-head-gradient">
         <div class="container">
             <!-- breadcrumd start -->
             <section class="breadcrumb-section">
@@ -202,15 +185,5 @@
         </div>
         <!-- end footer -->
     </div>
-
-
-    <!-- Jquery -->
-    <script src="assets/libraries/jquery/jquery.js"></script>
-    <!-- counterUp -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
-    <!-- JS -->
-    <script src="assets/libraries/bootstrap/js/bootstrap.js"></script>
-    <script src="assets/scripts/main.js"></script>
-</body>
-</html>
+            <!-- checkout end -->
+@endsection()

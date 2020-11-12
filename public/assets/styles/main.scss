@@ -301,7 +301,7 @@
     width: 100%;
     // height: 300px;
     height:auto;
-    background: linear-gradient(to bottom, #FFFCFC, #E3E0E0)
+    // background: linear-gradient(to bottom, #FFFCFC, #E3E0E0)
 }
 
 .testimoni-text {
@@ -468,16 +468,23 @@ hr {
 
     /* navbar */
     .navbar-brand {
-        color: #F8FBF6 !important;
+        color: #73DB1F !important;
         z-index: 4;
     }
 
     .nav-link {
         margin-right: 12px;
-        color: #F8FBF6 !important;
+        color: #73DB1F !important;
         position: relative;
         z-index: 20;
+        text-shadow: 0.2px 0.2px grey;
     }
+
+    .tombol{
+        color: #FFF !important;
+    }
+
+    
 
     /* hero */
     .hero-wrapper {
@@ -686,7 +693,7 @@ hr {
         width: 100%;
         // height: 300px;
         height:auto;
-        background: linear-gradient(to bottom, #FFFCFC, #E3E0E0)
+        // background: linear-gradient(to bottom, #FFFCFC, #E3E0E0)
     }
 
     .testimoni-text {
@@ -772,6 +779,9 @@ hr {
         text-align: center;
         padding-top: 20px;
         background-color: #5B8B33;
+        // position: fixed;
+        // bottom: 0;
+        // width: 100%;
     }
 
     .footer p {

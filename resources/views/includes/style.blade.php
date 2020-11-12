@@ -10,6 +10,5 @@
 
 <!-- Main CSS -->
 <link rel="stylesheet" href="{{ url('assets/styles/main.css') }}">
-<link rel="stylesheet" href="{{ url('assets/styles/detail.css') }}">
 <!-- AOS Effect -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">

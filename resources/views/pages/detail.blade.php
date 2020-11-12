@@ -2,6 +2,7 @@
 @section('title','Detail Travel')
 
 @section('content')
+<link rel="stylesheet" href="{{ url('assets/styles/detail.css') }}">
 <div class="box-head-gradient">
         <div class="container">
         
