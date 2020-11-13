@@ -36,8 +36,10 @@
 		S0.001,285.469,0.001,183.903l0,0C-0.288,82.625,81.579,0.29,182.856,0.001C183.205,0,183.554,0,183.903,0.001z"/>
 	<polygon style="fill:#D4E1F4;" points="285.78,133.225 155.168,263.837 82.025,191.217 111.805,161.96 155.168,204.801 
 		256.001,103.968 	"/>
-                              <p>Upload your receipt payment here !</p>
-                              <a href="/" class="btn btn-success" style="background-color: #76B840 !important;color:white !important;">Home</a>
+                              
+                              <h4 style="margin-top:20px;margin-bottom:20px">YOUR PAYMENT HAVE BEEN SUCCESS</h4>
+                              <p>Your status payment will change after our admin confirm your payment <br> We've sent you email for trip instruction, please readit as well</p>
+                              <a href="/" class="btn btn-success" style="background-color: #76B840 !important;color:white !important;">Back to Home</a>
                             </center>
                             
                         </div>
