@@ -47,9 +47,9 @@
             </div>
             <!-- confirmationbox end -->
         </div>
-
+    
         <!-- footer -->
-        <div class="footer">
+        <div class="footer" style="position: fixed;bottom: 0;width: 100%;">
             <div class="container">
                 <p>Travelology Copyrights 2020, All right Reserved, Made with love from Jakarta</p>
             </div>

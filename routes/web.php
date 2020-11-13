@@ -19,7 +19,7 @@ Route::get('/checkout','CheckoutController@index')
     ->name('checkout');
 Route::get('/confirmation','ConfirmationController@index')
     ->name('confirmation');
-    Route::get('/success','SuccessController@index')
+Route::get('/success','SuccessController@index')
     ->name('success');
 
 Route::prefix('/admin')
@@ -29,18 +29,3 @@ Route::prefix('/admin')
         ->name('dashboard');
 });
 
-
-// // Menampilkan halaman utama
-// Route::get('/','MainController@index')->name('utama');
-
-// // Menampilkan halaman detail tempat
-// Route::get('/detail','MainController@detail_place');
-
-// // Menampilkan halaman login
-// Route::get('/login','MainController@login');
-
-// // Menampilkan halaman checkout
-// Route::get('/checkout','MainController@checkout');
-
-// // Menampilkan halaman konfirmasi pemesanan
-// Route::get('/confirmation','MainController@confirmation');
