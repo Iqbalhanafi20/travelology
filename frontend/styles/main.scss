@@ -1,0 +1,35 @@
+body{
+    background-color: #dee3e1;
+    font-family: 'Assistant', sans-serif;
+    color:#1ABC9C;
+}
+
+navbar-brand {
+    h3{
+        max-height: 40px;
+    }
+}
+
+.nav-item{
+    margin-top: 4px !important;
+    margin-bottom:  -8px !important;
+}
+
+.btn-navbar-right{
+    margin-top: -10px !important;
+    margin-bottom:  -8px !important;
+    margin-right: -32px !important;
+
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login{
+    background-color: #1ABC9C;
+    color:#fff;
+
+    &:hover{
+        background-color: #69c9a3;
+        color:#fff; 
+    }
+}
