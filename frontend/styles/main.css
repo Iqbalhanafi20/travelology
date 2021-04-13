@@ -32,7 +32,7 @@ navbar-brand h3 {
 
 header {
   padding: 180px 0px 165px 0px;
-  background-image: url(../images/banner-bromo.jpg);
+  background-image: url(../images/banner.jpg);
   background-size: cover;
   margin-top: -70px;
 }
@@ -106,5 +106,29 @@ p {
 
 .section-popular .section-popular-heading p {
   font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 26px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: salmon;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #ffaa69;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
