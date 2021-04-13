@@ -60,4 +60,51 @@ header .btn-get-started:hover {
   background-color: #ffaa69;
   color: #fff;
 }
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #1ABC9C;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #fff;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Playfair Display',serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
 /*# sourceMappingURL=main.css.map */

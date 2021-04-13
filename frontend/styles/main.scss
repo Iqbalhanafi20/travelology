@@ -66,3 +66,52 @@ header {
         }
     }
 }
+
+// statistic
+.section-stats {
+    margin-top: -50px;
+}
+
+.stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+// popular
+.section-popular {
+    min-height: 540px;
+    background-color: #1ABC9C;
+    margin-top: -50px;
+    margin-bottom: -230px;
+
+    .section-popular-heading {
+        margin-top: 150px;
+
+        h2,p {
+            color: #fff;
+        }
+
+        h2 {
+            font-family: 'Playfair Display',serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
