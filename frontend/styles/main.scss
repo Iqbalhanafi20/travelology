@@ -1,7 +1,7 @@
-body{
+body {
     background-color: #dee3e1;
     font-family: 'Assistant', sans-serif;
-    color:#1ABC9C;
+    // color:#1ABC9C;
 }
 
 navbar-brand {
@@ -10,12 +10,12 @@ navbar-brand {
     }
 }
 
-.nav-item{
+.nav-item {
     margin-top: 4px !important;
     margin-bottom:  -8px !important;
 }
 
-.btn-navbar-right{
+.btn-navbar-right {
     margin-top: -10px !important;
     margin-bottom:  -8px !important;
     margin-right: -32px !important;
@@ -24,12 +24,45 @@ navbar-brand {
     border-radius: 0;
 }
 
-.btn-login{
+.btn-login {
     background-color: #1ABC9C;
     color:#fff;
 
-    &:hover{
+    &:hover {
         background-color: #69c9a3;
         color:#fff; 
+    }
+}
+
+
+// header
+header {
+    padding: 180px 0px 165px 0px;
+    background-image: url(../images/banner-bromo.jpg);
+    background-size: cover;
+    margin-top: -70px;
+
+    h1, p {
+        color: #fff;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: salmon;
+        color: #fff;
+
+        &:hover {
+           background-color:  #ffaa69;
+           color: #fff;   
+        }
     }
 }

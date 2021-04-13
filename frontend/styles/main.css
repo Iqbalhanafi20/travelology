@@ -1,7 +1,6 @@
 body {
   background-color: #dee3e1;
   font-family: 'Assistant', sans-serif;
-  color: #1ABC9C;
 }
 
 navbar-brand h3 {
@@ -28,6 +27,37 @@ navbar-brand h3 {
 
 .btn-login:hover {
   background-color: #69c9a3;
+  color: #fff;
+}
+
+header {
+  padding: 180px 0px 165px 0px;
+  background-image: url(../images/banner-bromo.jpg);
+  background-size: cover;
+  margin-top: -70px;
+}
+
+header h1, header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: salmon;
+  color: #fff;
+}
+
+header .btn-get-started:hover {
+  background-color: #ffaa69;
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
