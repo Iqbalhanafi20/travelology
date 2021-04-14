@@ -326,6 +326,28 @@ header {
         }
     }
 
+    // gallery
+    .gallery {
+        .xzoom-container {
+            display: block;
+
+            .xzoom {
+                width: 100%;
+                box-shadow: none;
+                margin-bottom: 10px;
+            }
+
+            .xactive {
+                border: 5px solid #1ABC9C;
+            }
+        }
+
+        .xzoom-gallery {
+            width: 128px;
+            height: 90px;
+        }
+    }
+
 }
 
 

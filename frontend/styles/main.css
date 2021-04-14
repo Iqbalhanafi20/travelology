@@ -295,4 +295,24 @@ header .btn-get-started:hover {
   width: 25px;
   float: left;
 }
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 5px solid #1ABC9C;
+}
+
+.section-details-content .gallery .xzoom-gallery {
+  width: 128px;
+  height: 90px;
+}
 /*# sourceMappingURL=main.css.map */

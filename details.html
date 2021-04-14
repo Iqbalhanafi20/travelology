@@ -8,6 +8,8 @@
     <!-- bootstrap css -->
     <link rel="stylesheet" href="frontend/libraries/bootstrap-4.4.1-dist/css/bootstrap.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <!-- xzoom -->
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display&display=swap" rel="stylesheet">
@@ -93,7 +95,27 @@
                                     Republik Indonesia
                                 </p>
                                 <div class="gallery">
+                                    <div class="xzoom-container">
+                                        <img src="frontend/images/bromo1.jpg" class="xzoom" id="xzoom-default" xoriginal='frontend/images/bromo1.jpg' alt="details-image" style="width: 100%;">
+                                    </div>
+                                    <!-- thubmnail -->
+                                    <div class="xzoom-thumbs">
+                                        <a href="frontend/images/bromo1.jpg">
+                                            <img src="frontend/images/bromo1.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/bromo1.jpg">
+                                        </a>
 
+                                        <a href="frontend/images/bromo2.jpg">
+                                            <img src="frontend/images/bromo2.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/bromo2.jpg">
+                                        </a>
+
+                                        <a href="frontend/images/bromo3.jpg">
+                                            <img src="frontend/images/bromo3.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/bromo3.jpg">
+                                        </a>
+
+                                        <a href="frontend/images/bromo4.jpg">
+                                            <img src="frontend/images/bromo4.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/bromo4.jpg">
+                                        </a>
+                                    </div>
                                 </div>
                                 <h2>Tentang Wisata</h2>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium dicta enim nisi quos fugiat nemo repellat nulla facere delectus, ut quis eius odio, ratione quisquam adipisci distinctio saepe illo! Maxime?</p>
@@ -199,6 +221,17 @@
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"> -->
     <!-- retina -->
     <script src="frontend/libraries/retina/retina.min.js"></script>
+    <!-- xzoom -->
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title : false,
+                tint: '#333',
+                zoffset: 35,
+            });
+        })
     </script>
 </body>
 </html>
