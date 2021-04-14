@@ -70,13 +70,13 @@ header .btn-get-started:hover {
   background-color: #fff;
 }
 
-h2 {
+.stats-detail h2 {
   font-size: 30px;
   margin-bottom: 0;
   text-align: center;
 }
 
-p {
+.stats-detail p {
   font-size: 20px;
   font-weight: lighter;
   text-align: center;
@@ -223,5 +223,27 @@ p {
 
 .section-footer a {
   color: #071c4d;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6e8;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #1ABC9C;
 }
 /*# sourceMappingURL=main.css.map */
