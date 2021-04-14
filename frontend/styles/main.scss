@@ -276,6 +276,56 @@ header {
         }
     }
 
+    .card-details {
+        padding: 30px;
+        border-radius: 11px;
+    }
+
+    h1 {
+        font-weight: bold;
+        color: #1ABC9C;
+        font-size: 24px;
+    }
+
+    h2 {
+        font-weight: bold;
+        color: #1ABC9C;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .features {
+        margin-top : 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+        color: #1ABC9C;
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    .description {
+        // width: 200px;
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+
+        .features-image {
+            margin-top: 13px;
+            width: 25px;
+            float: left;
+        }
+    }
+
 }
 
 
