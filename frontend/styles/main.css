@@ -68,7 +68,6 @@ header .btn-get-started:hover {
 .stats-detail {
   padding-top: 15px;
   background-color: #fff;
-  padding-left: 40px;
 }
 
 h2 {
@@ -91,7 +90,7 @@ p {
 }
 
 .section-popular .section-popular-heading {
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 .section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
@@ -130,5 +129,26 @@ p {
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
   background-color: #ffaa69;
   color: #fff;
+}
+
+.section-network {
+  background-color: #fff;
+  margin-top: -200px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-network h2 {
+  font-family: 'Playfair Display',serif;
+  font-weight: bold;
+}
+
+.section-network p {
+  font-family: 'Playfair Display',serif;
+  font-size: 18px;
+}
+
+.section-network img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
