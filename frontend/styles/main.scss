@@ -205,7 +205,7 @@ header {
 
         .testimonial {
             font-weight: 300;
-            font-size: 26px;
+            font-size: 20px;
             text-align: center;
             color :#6e6e6e;
         }
@@ -301,14 +301,54 @@ header {
         .trip-information {
             th {
                 font-weight: 300;
-                font-size: 18px;
+                font-size: 15px;
                 color: #1ABC9C;;
             }
 
             td {
                 font-weight : 100;
-                font-size: 18px;
+                font-size: 15px;
                 color: #b1b1b1;
+            }
+        }
+
+        .payment-instructions {
+            font-weight: 300;
+            font-size: 14px;
+            color: #b1b1b1;
+            margin-bottom: 10px;
+        }
+
+        .bank {
+            .bank-item {
+                h3 {
+                    font-size: 18px;
+                    margin-bottom: 0;
+                    color: #1ABC9C 
+                }
+
+                .bank-image {
+                    width: 45px;
+                    height: 45px;
+                    float: left;
+                    margin-right: 5px;
+                }
+
+                .description {
+                    margin-left: 10px;
+                    overflow: hidden;
+                    float: left;
+
+                    h1 {
+                        font-size: 18px;
+                    }
+
+                    p {
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: #1ABC9C;
+                    }
+                }
             }
         }
 
