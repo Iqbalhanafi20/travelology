@@ -322,6 +322,11 @@ header .btn-get-started:hover {
   height: 90px;
 }
 
+.section-details-content .members .member-images {
+  width: 40px;
+  height: 40px;
+}
+
 .section-details-content .join-container {
   margin-top: -16px;
 }
