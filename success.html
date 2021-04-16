@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelology - Travel kita semua</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap-4.4.1-dist/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <!-- xzoom -->
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <!-- gijgo -->
+    <link rel="stylesheet" href="frontend/libraries/combined/css/gijgo.min.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+                <a href="index.html" class="navbar-brand">
+                    <h3 alt="travelku"><span style="color: #1ABC9C;">Travel</span><span style="color:salmon">Ology</span></h3>
+                </a>
+            </div>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+                <li>
+                    <span class="text-muted">
+                        | &nbsp Jalan - Jalan Kuy
+                    </span>
+                </li>
+            </ul>
+        </nav>
+
+    </div> 
+    
+   <main>
+       <div class="section-success d-flex align-items-center">
+           <div class="col text-center">
+               <img src="frontend/images/wallet.svg" alt="">
+               <h1>Congratulation! Success</h1>
+               <p>We've sent you email for trip instruction
+                   <br>
+                   please read it as well
+               </p>
+               <a href="index.html" class="btn btn-home-page mt-3 px-3">
+                   Home Page
+               </a>
+           </div>
+       </div>
+   </main>
+
+
+    <!-- jquery -->
+    <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="frontend/libraries/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"> -->
+    <!-- retina -->
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <!-- xzoom -->
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script src="frontend/libraries/combined/js/gijgo.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title : false,
+                tint: '#333',
+                zoffset: 35,
+            });
+
+            $(".datepicker").datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<img src="frontend/images/calendar.svg" />'
+                }
+            })
+        })
+    </script>
+</body>
+</html>

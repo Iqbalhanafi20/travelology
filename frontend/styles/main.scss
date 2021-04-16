@@ -468,6 +468,39 @@ header {
 
 }
 
+.section-success {
+    height: 90vh;
+
+    img {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+        color: #1ABC9C;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page{
+        border-radius: 4px;
+        background-color: salmon;
+        color: #fff;
+
+        &:hover{
+            background-color: #ffaa69;
+            color: #fff;    
+        }
+    }
+}
+
 
 
 
