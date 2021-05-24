@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 // Route::get('/', 'HomeController@index');
+// home page
 Route::prefix('/')
     ->namespace('Home')
     ->group(function(){
@@ -25,7 +26,16 @@ Route::prefix('/')
             ->name('Home');
     });
 
+// detail page
+Route::prefix('/detail')
+    ->namespace('Detail')
+    ->group(function(){
+        // Route::get('/', 'DashboardController@index')
+        Route::get('/',[App\Http\Controllers\DetailController::class, 'index'])
+            ->name('Detail');
+    });
 
+// admin page
 Route::prefix('admin')
     ->namespace('Admin')
     ->group(function(){
