@@ -35,6 +35,24 @@ Route::prefix('/detail')
             ->name('Detail');
     });
 
+//checkout page
+Route::prefix('/checkout')
+    ->namespace('Checkout')
+    ->group(function(){
+        // Route::get('/', 'DashboardController@index')
+        Route::get('/',[App\Http\Controllers\CheckoutController::class, 'index'])
+            ->name('Checkout');
+    });
+
+// success page
+Route::prefix('/checkout-success')
+    ->namespace('Checkout-success')
+    ->group(function(){
+        // Route::get('/', 'DashboardController@index')
+        Route::get('/',[App\Http\Controllers\CheckoutController::class, 'success'])
+            ->name('Checkout-success');
+    });
+
 // admin page
 Route::prefix('admin')
     ->namespace('Admin')

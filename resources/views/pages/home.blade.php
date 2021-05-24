@@ -72,7 +72,7 @@ Travelology - Travel kita semua
                                 DANAU TOBA, MEDAN
                             </div>
                             <div class="travel-button mt-auto">
-                                <a href="details.html" class="btn btn-travel-details px-4">
+                                <a href="detail" class="btn btn-travel-details px-4">
                                     View Details
                                 </a>
                             </div>
@@ -87,7 +87,7 @@ Travelology - Travel kita semua
                                 CITUMANG, PANGANDARAN
                             </div>
                             <div class="travel-button mt-auto">
-                                <a href="details.html" class="btn btn-travel-details px-4">
+                                <a href="detail" class="btn btn-travel-details px-4">
                                     View Details
                                 </a>
                             </div>
@@ -102,7 +102,7 @@ Travelology - Travel kita semua
                                 NUSA PENINDA, BALI
                             </div>
                             <div class="travel-button mt-auto">
-                                <a href="details.html" class="btn btn-travel-details px-4">
+                                <a href="detail" class="btn btn-travel-details px-4">
                                     View Details
                                 </a>
                             </div>
@@ -117,7 +117,7 @@ Travelology - Travel kita semua
                                 BROMO, MALANG
                             </div>
                             <div class="travel-button mt-auto">
-                                <a href="details.html" class="btn btn-travel-details px-4">
+                                <a href="detail" class="btn btn-travel-details px-4">
                                     View Details
                                 </a>
                             </div>

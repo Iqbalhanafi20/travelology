@@ -131,7 +131,7 @@
                                 </table>
                             </div>
                             <div class="join-container">
-                                <a href="checkout.html" class="btn btn-block btn-join-now mt-3 py-2">
+                                <a href="checkout" class="btn btn-block btn-join-now mt-3 py-2">
                                     Join Now
                                 </a>
                             </div>

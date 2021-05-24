@@ -1,7 +1,7 @@
 <!-- navbar -->
 <div class="container">
         <nav class="row navbar navbar-expand-lg navbar-light bg-white">
-            <a href="index.html" class="navbar-brand">
+            <a href="/" class="navbar-brand">
                 <h3 alt="travelku"><span style="color: #1ABC9C;">Travel</span><span style="color:salmon">Ology</span></h3>
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
@@ -11,7 +11,7 @@
             <div class="collapse navbar-collapse" id="navb">
                 <ul class="navbar-nav ml-auto mr-3">
                     <li class="nav-item mx-md-2">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="/" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item mx-md-2">
                         <a href="#" class="nav-link">Paket Travel</a>
