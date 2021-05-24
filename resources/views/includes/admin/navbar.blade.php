@@ -5,10 +5,14 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ Auth::user()->name }} 
                         <i class="fas fa-user fa-fw"></i>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                        <a class="dropdown-item" href="login.html">Logout</a>
+                        <form action="{{ url('logout') }}" method="POST">
+                        @csrf
+                        <button class="dropdown-item" type="submit" href="#">Logout</button>
+                        </form>
                     </div>
                 </li>
             </ul>
