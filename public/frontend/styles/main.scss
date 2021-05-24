@@ -1,0 +1,506 @@
+body {
+    background-color: #fff;
+    font-family: 'Assistant', sans-serif;
+    // color:#1ABC9C;
+}
+
+navbar-brand {
+    h3{
+        max-height: 40px;
+    }
+}
+
+.nav-item {
+    margin-top: 4px !important;
+    margin-bottom:  -8px !important;
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom:  -8px !important;
+    margin-right: -32px !important;
+
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login {
+    background-color: #1ABC9C;
+    color:#fff;
+
+    &:hover {
+        background-color: #69c9a3;
+        color:#fff; 
+    }
+}
+
+
+// header
+header {
+    padding: 180px 0px 165px 0px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    margin-top: -70px;
+
+    h1, p {
+        color: #fff;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: salmon;
+        color: #fff;
+
+        &:hover {
+           background-color:  #ffaa69;
+           color: #fff;   
+        }
+    }
+}
+
+// statistic
+.section-stats {
+    margin-top: -50px;
+}
+
+.stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    // padding-left: 40px;
+
+    h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: lighter;
+        text-align: center;
+    }
+}
+
+
+
+// popular
+.section-popular {
+    min-height: 540px;
+    background-color: #1ABC9C;
+    margin-top: -50px;
+    margin-bottom: -230px;
+
+    .section-popular-heading {
+        margin-top: 120px;
+
+        h2,p {
+            color: #fff;
+        }
+
+        h2 {
+            font-family: 'Playfair Display',serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+// section popular content
+.section-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: #000;
+            color:#fff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .travel-country {
+            font-size: 26px;
+            color: #fff;
+        }
+
+        .travel-button {
+            .btn-travel-details {
+                background-color: salmon;
+                color: #fff;
+
+                &:hover {
+                    background-color:  #ffaa69;
+                    color: #fff;   
+                 }
+            }
+
+            
+        }
+    }
+}
+
+.section-network {
+    background-color: #fff;
+    margin-top: -200px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Playfair Display',serif;
+        font-weight: bold;
+    }
+
+    p {
+        // font-family: 'Playfair Display',serif;
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+    
+}
+
+.section-testimonial-heading {
+    background: linear-gradient(#fff 0%, #1ABC9C 100%);
+    padding-top: 50px;
+    min-height: 300px;
+
+    h2 {
+        font-family: 'Playfair Display',serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        // font-family: 'Playfair Display',serif;
+        font-size: 18px;
+    }
+}
+
+.section-testimonial-content {
+    margin-top: -100px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+
+        h3 {
+            font-size: 22px;
+        }
+
+        .testimonial {
+            font-weight: 300;
+            font-size: 20px;
+            text-align: center;
+            color :#6e6e6e;
+        }
+
+        .trip-to {
+            font-weight: normal;
+            font-size: 22px;
+            color: #6e6e6e;
+        }
+
+        hr {
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+
+    }
+
+    .btn-get-started {
+        background-color: salmon;
+        color: #fff;
+
+        &:hover {
+            background-color:  #ffaa69;
+            color: #fff;   
+         }
+    }
+    
+    .btn-need-help {
+        background-color: #f2f2f2;
+        color: grey;
+
+        &:hover {
+            background-color:  grey;
+            color: #fff;   
+         }
+    }
+
+}
+
+.section-footer {
+    a {
+        color :#071c4d;
+    }
+}
+
+
+// =======details page
+.section-details-header {
+    min-height: 310px;
+    background : #e4e6e8;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    margin-top: -210px;
+    min-height: 100vh;
+
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item {
+        &.active {
+            font-weight: bold;
+            color: #1ABC9C;
+        }
+    }
+
+    .card-details {
+        padding: 30px;
+        border-radius: 11px;
+
+        h1 {
+            font-weight: bold;
+            color: #1ABC9C;
+            font-size: 24px;
+        }
+    
+        h2 {
+            font-weight: bold;
+            color: #1ABC9C;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    
+        p {
+            font-size: 18px;
+            color: #b1b1b1;
+        }
+
+        .trip-information {
+            th {
+                font-weight: 300;
+                font-size: 15px;
+                color: #1ABC9C;;
+            }
+
+            td {
+                font-weight : 100;
+                font-size: 15px;
+                color: #b1b1b1;
+            }
+        }
+
+        .payment-instructions {
+            font-weight: 300;
+            font-size: 14px;
+            color: #b1b1b1;
+            margin-bottom: 10px;
+        }
+
+        .bank {
+            .bank-item {
+                h3 {
+                    font-size: 18px;
+                    margin-bottom: 0;
+                    color: #1ABC9C 
+                }
+
+                .bank-image {
+                    width: 45px;
+                    height: 45px;
+                    float: left;
+                    margin-right: 5px;
+                }
+
+                .description {
+                    margin-left: 10px;
+                    overflow: hidden;
+                    float: left;
+
+                    h1 {
+                        font-size: 18px;
+                    }
+
+                    p {
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: #1ABC9C;
+                    }
+                }
+            }
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 14px;
+            color: #1ABC9C;
+        }
+
+        .disclaimer {
+            font-weight: 300;
+            font-size: 14px;
+            color: #b1b1b1;
+        }
+
+        .gj-datepicker {
+            .datepicker {
+                border-right: 0;
+            }
+
+            .input-group-append {
+                .btn {
+                    padding-right: 30%;
+                }
+            }
+        }
+
+        .btn-add-now {
+            background-color: salmon;
+            color: #fff;
+
+            &:hover {
+                background-color:  #ffaa69;
+                color: #fff; 
+            }
+        }
+    
+        .features {
+            margin-top : 20px;
+        }
+    
+        h3 {
+            font-size: 18px;
+            color: #1ABC9C;
+            margin-bottom: 0;
+        }
+    
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    .card-right {
+        border-bottom-left-radius :0;
+        border-bottom-right-radius :0;
+        border-bottom:0;
+    }
+
+    
+
+    .description {
+        // width: 200px;
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+
+        .features-image {
+            margin-top: 13px;
+            width: 25px;
+            float: left;
+        }
+    }
+
+    // gallery
+    .gallery {
+        .xzoom-container {
+            display: block;
+
+            .xzoom {
+                width: 100%;
+                box-shadow: none;
+                margin-bottom: 10px;
+            }
+
+            .xactive {
+                border: 5px solid #1ABC9C;
+            }
+        }
+
+        .xzoom-gallery {
+            width: 128px;
+            height: 90px;
+        }
+    }
+
+    .members {
+        .member-images {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .join-container {
+        margin-top: -16px;
+    }
+
+    .btn-join-now {
+        background-color: salmon;
+        color: #fff;
+        border-radius: 0;
+
+        &:hover {
+            background-color: rgb(252, 97, 80);
+            color: #fff;
+        }
+    }
+
+}
+
+.section-success {
+    height: 90vh;
+
+    img {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+        color: #1ABC9C;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page{
+        border-radius: 4px;
+        background-color: salmon;
+        color: #fff;
+
+        &:hover{
+            background-color: #ffaa69;
+            color: #fff;    
+        }
+    }
+}
+
+
+
+

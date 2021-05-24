@@ -13,9 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+// Route::get('/', 'HomeController@index');
+Route::prefix('/')
+    ->namespace('Home')
+    ->group(function(){
+        // Route::get('/', 'DashboardController@index')
+        Route::get('/',[App\Http\Controllers\HomeController::class, 'index'])
+            ->name('Home');
+    });
 
 
 Route::prefix('admin')

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title')</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="{{ url('frontend/libraries/bootstrap-4.4.1-dist/css/bootstrap.css') }}">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url('frontend/styles/main.css') }}">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <a href="index.html" class="navbar-brand">
+                <h3 alt="travelku"><span style="color: #1ABC9C;">Travel</span><span style="color:salmon">Ology</span></h3>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Paket Travel</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">link</a>
+                            <a href="#" class="dropdown-item">link</a>
+                            <a href="#" class="dropdown-item">link</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Testimonial</a>
+                    </li>
+
+                    <!-- mobile version -->
+                    <form class="form-inline d-sm-block d-md-none">
+                        <button class="btn btn-login my-2 my-sm-0">
+                            Masuk
+                        </button>
+                    </form>
+                    
+                    <!-- dekstop version -->
+                    <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                        <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                            Masuk
+                        </button>
+                    </form>
+                    
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+   @yield('content')
+
+    <!-- footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                                <h5>FEATURES</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Reviews</a></li>
+                                    <li><a href="#">Community</a></li>
+                                    <li><a href="#">Social Media Kit</a></li>
+                                    <li><a href="#">Affiliate</a></li>
+                                </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h5>ACCOUNT</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Refund</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Reward</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h5>COMPANY</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h5>GET CONNECTED</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Jakarta Utara</a></li>
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="#">0899-8355-9098</a></li>
+                                <li><a href="#">CS@travelology.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-4">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    2021 Copywright Travelology . All rights reserved . Made in Tg Priok
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jquery -->
+    <script src="{{ url('frontend/libraries/jquery/jquery-3.6.0.min.js') }}"></script>
+    <!-- bootstrap js -->
+    <script src="{{ url('frontend/libraries/bootstrap-4.4.1-dist/js/bootstrap.js') }}"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"> -->
+    <!-- retina -->
+    <script src="{{ url('frontend/libraries/retina/retina.min.js') }}"></script>
+    </script>
+</body>
+</html>
