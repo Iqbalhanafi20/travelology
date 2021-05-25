@@ -27,7 +27,6 @@
                     <li class="nav-item mx-md-2">
                         <a href="#" class="nav-link">Testimonial</a>
                     </li>
-                </ul>
 
                 @guest
 
@@ -66,6 +65,8 @@
                     </form>
 
                 @endauth
+
+                </ul>
 
             </div>
         </nav>

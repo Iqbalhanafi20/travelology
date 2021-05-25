@@ -61,6 +61,9 @@ Route::prefix('admin')
         // Route::get('/', 'DashboardController@index')
         Route::get('/',[App\Http\Controllers\Admin\DashboardController::class, 'index'])
             ->name('dashboard');
+
+
+        Route::resource('travel-package', 'TravelPackageController');
     });
 
     // verifikasi email
