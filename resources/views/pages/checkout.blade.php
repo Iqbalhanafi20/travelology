@@ -182,7 +182,7 @@
                                 </div>
                             </div>
                             <div class="join-container">
-                                <a href="success.html" class="btn btn-block btn-join-now mt-3 py-2">
+                                <a href="checkout-success" class="btn btn-block btn-join-now mt-3 py-2">
                                     I have made payment
                                 </a>
                             </div>

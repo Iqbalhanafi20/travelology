@@ -27,7 +27,7 @@ Route::prefix('/')
     });
 
 // detail page
-Route::prefix('/detail')
+Route::prefix('detail')
     ->namespace('Detail')
     ->group(function(){
         // Route::get('/', 'DashboardController@index')
@@ -36,7 +36,7 @@ Route::prefix('/detail')
     });
 
 //checkout page
-Route::prefix('/checkout')
+Route::prefix('checkout')
     ->namespace('Checkout')
     ->group(function(){
         // Route::get('/', 'DashboardController@index')
@@ -45,7 +45,7 @@ Route::prefix('/checkout')
     });
 
 // success page
-Route::prefix('/checkout-success')
+Route::prefix('checkout-success')
     ->namespace('Checkout-success')
     ->group(function(){
         // Route::get('/', 'DashboardController@index')
@@ -63,5 +63,6 @@ Route::prefix('admin')
             ->name('dashboard');
     });
 
-Auth::routes();
+    // verifikasi email
+Auth::routes(['verify' => true]);
 

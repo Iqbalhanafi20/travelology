@@ -12,7 +12,7 @@
                    <br>
                    please read it as well
                </p>
-               <a href="index.html" class="btn btn-home-page mt-3 px-3">
+               <a href="/" class="btn btn-home-page mt-3 px-3">
                    Home Page
                </a>
            </div>
