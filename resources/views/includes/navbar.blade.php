@@ -31,7 +31,7 @@
                     <!-- mobile version -->
                     <form class="form-inline d-sm-block d-md-none" action="{{ url('/admin') }}">
                         <button class="btn btn-login my-2 my-sm-0">
-                            Masukssss
+                            Masuk
                         </button>
                     </form>
                     
