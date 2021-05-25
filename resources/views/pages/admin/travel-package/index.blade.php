@@ -13,7 +13,7 @@
 
 
                     <div class="row">
-                        <fiv class="card-body">
+                        <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" width="100%" cellspacing="0">
                                     <thead>
@@ -59,7 +59,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </fiv>
+                        </div>
                     </div>
 
 
